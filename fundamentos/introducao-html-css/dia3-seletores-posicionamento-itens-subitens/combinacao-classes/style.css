@@ -1,0 +1,28 @@
+ol {
+    background-color: yellow;
+}
+
+.two, .four {
+    color: green;
+}
+
+.one, .three, .five {
+    text-transform: uppercase;
+}
+
+.title {
+    color: red;
+}
+
+.italic {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+.negr {
+    font-weight: bold;
+}

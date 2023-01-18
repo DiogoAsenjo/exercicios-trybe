@@ -1,0 +1,36 @@
+div:hover {
+    border-style: solid;
+    border-color: black;
+}
+
+.one:hover {
+    background-color: blue;
+}
+
+.two:hover {
+    background-color:  purple ;
+}
+
+.three:hover {
+    background-color: orange;
+}
+
+.four:hover {
+    background-color: darkblue;
+}
+
+.five:hover {
+    background-color: aqua;
+}
+
+.three {
+    padding: 50px;
+}
+
+div {
+    text-align: center;
+}
+
+.one, .three, .five {
+    font-style: italic;
+}

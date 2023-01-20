@@ -1,36 +1,28 @@
 div:hover {
-    border-style: solid;
-    border-color: black;
+    border: 1px solid black;
 }
 
-.one:hover {
-    background-color: blue;
+div:nth-of-type(1) {
+    color: aqua;
 }
 
-.two:hover {
-    background-color:  purple ;
+div:nth-of-type(2) {
+    color: red;
 }
 
-.three:hover {
-    background-color: orange;
+div:nth-of-type(3) {
+    color: blue;
+    height: 100px;
 }
 
-.four:hover {
-    background-color: darkblue;
+div:nth-of-type(4) {
+    color: pink;
 }
 
-.five:hover {
-    background-color: aqua;
+div:nth-of-type(5) {
+    color: violet;
 }
 
-.three {
-    padding: 50px;
-}
-
-div {
-    text-align: center;
-}
-
-.one, .three, .five {
+div:nth-child(odd) h3 {
     font-style: italic;
 }
